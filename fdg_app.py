@@ -11,9 +11,9 @@ from kivy.effects.scroll import ScrollEffect
 import four_digits_game
 
 
-class NumpadApp(App):
+class FDGApp(App):
     def __init__(self):
-        super(NumpadApp, self).__init__()
+        super(FDGApp, self).__init__()
 
         scale = Window.dpi / 96
         Window.size = (600 / scale, 1200 / scale)
@@ -236,4 +236,4 @@ class NumpadApp(App):
 
 
 if __name__ == "__main__":
-    NumpadApp().run()
+    FDGApp().run()
